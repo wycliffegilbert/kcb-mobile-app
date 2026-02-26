@@ -3,9 +3,9 @@
 // ============================================================
 
 export const USER = {
-  name: 'James Kamau',
-  firstName: 'James',
-  email: 'james.kamau@email.com',
+  name: 'Mary Mbiu',
+  firstName: 'Mary',
+  email: 'mary.mbiu@email.com',
   phone: '+254 712 345 678',
   memberId: 'KCB-2019-004821',
   address: 'Kilimani, Nairobi, Kenya',
