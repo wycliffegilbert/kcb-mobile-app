@@ -3,13 +3,13 @@
 // ============================================================
 
 export const USER = {
-  name: 'Mary Mbiu',
-  firstName: 'Mary',
-  email: 'mary.mbiu@email.com',
-  phone: '+254 706 670 976',
+  name: 'James Kamau',
+  firstName: 'James',
+  email: 'james.kamau@email.com',
+  phone: '+254 712 345 678',
   memberId: 'KCB-2019-004821',
   address: 'Kilimani, Nairobi, Kenya',
-  dob: '15 March 1988',
+  dob: '15 March 1994',
   accountSince: 'January 2019',
   kycStatus: 'Verified',
   avatar: 'JK',

@@ -16,6 +16,14 @@ export default function HomeScreen({ navigation }) {
   const [balanceVisible, setBalanceVisible] = useState(true);
   const recentTx = TRANSACTIONS.slice(0, 5);
 
+  const getGreeting = () => {
+    const hour = new Date().getHours();
+    if (hour < 12) return 'Good morning 🌅';
+    if (hour < 17) return 'Good afternoon ☀️';
+    if (hour < 21) return 'Good evening 🌆';
+    return 'Good night 🌙';
+  };
+
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" backgroundColor={COLORS.primary} />
@@ -27,7 +35,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.logoText}>KCB</Text>
           </View>
           <View>
-            <Text style={styles.greeting}>Good morning 👋</Text>
+            <Text style={styles.greeting}>{getGreeting()}</Text>
             <Text style={styles.userName}>{USER.firstName}</Text>
           </View>
         </View>

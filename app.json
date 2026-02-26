@@ -15,14 +15,6 @@
     },
     "android": {
       "package": "com.kcbbank.app"
-    },
-    "plugins": [
-      "expo-font"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "326528a3-8638-4a21-adc1-5a43761d572d"
-      }
     }
   }
 }
